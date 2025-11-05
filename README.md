@@ -15,18 +15,7 @@ reverse proxy bằng Nginx, hoạt động qua domain nội bộ: **http://www.d
 
 ##  2. Kiến trúc hệ thống
 
-┌───────────────────────────────────────────────────────┐
-│                    Ubuntu Server                      │
-│                                                       │
-│  ┌─────────────┐   ┌──────────────┐   ┌────────────┐  │
-│  │ Nginx       │→→ │ ASP.NET Core │→→ │ PostgreSQL │  │
-│  │ (Frontend)  │   │ (Backend)    │   │ (Database) │  │
-│  │ Port 80     │   │ Port 8080    │   │ Port 5432  │  │
-│  └─────────────┘   └──────────────┘   └────────────┘  │
-│          │                  │                 │       │
-│   /usr/share/nginx/html  ./publish        ./pg_data   │
-└───────────────────────────────────────────────────────┘
-
+ ![Preview](https://res.cloudinary.com/dfuvpnrrb/image/upload/v1762357063/sodohethong_ak64i3.png)
 ---
 
 ##  3. Thành phần chính trong thư mục `/home/patz/webserver`
@@ -252,7 +241,9 @@ Backend đã cho phép origin `http://www.devopp.edu.vn`.
 
 ---
 ##  11. Hình ảnh sản phẩm
+- Login: 
 ![Preview](https://res.cloudinary.com/dfuvpnrrb/image/upload/v1762356548/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2025-11-05_lu%CC%81c_14.23.47_zmahlr.png)
+- Dashboard:
 ![Preview](https://res.cloudinary.com/dfuvpnrrb/image/upload/v1762356584/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2025-11-05_lu%CC%81c_14.24.01_jgyqkc.png)
 
 ##  12. Kết luận
@@ -267,4 +258,5 @@ Dự án **CoffeeShop Fullstack Deploy Lab** giúp sinh viên và lập trình v
  **Tác giả:** Nguyễn Phát  
  **Cập nhật:** 2025-11  
  **Môi trường chạy thử:** Ubuntu Server 22.04, Docker 27+, Docker Compose v2
+
 
