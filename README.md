@@ -251,9 +251,11 @@ Nếu dùng domain nội bộ:
 Backend đã cho phép origin `http://www.devopp.edu.vn`.
 
 ---
+##  11. Hình ảnh sản phẩm
+![Preview](https://res.cloudinary.com/dfuvpnrrb/image/upload/v1762356548/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2025-11-05_lu%CC%81c_14.23.47_zmahlr.png)
+![Preview](https://res.cloudinary.com/dfuvpnrrb/image/upload/v1762356584/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2025-11-05_lu%CC%81c_14.24.01_jgyqkc.png)
 
-
-##  11 Kết luận
+##  12. Kết luận
 
 Dự án **CoffeeShop Fullstack Deploy Lab** giúp sinh viên và lập trình viên:
 - Hiểu rõ pipeline triển khai fullstack thực tế.
@@ -265,3 +267,4 @@ Dự án **CoffeeShop Fullstack Deploy Lab** giúp sinh viên và lập trình v
  **Tác giả:** Nguyễn Phát  
  **Cập nhật:** 2025-11  
  **Môi trường chạy thử:** Ubuntu Server 22.04, Docker 27+, Docker Compose v2
+
